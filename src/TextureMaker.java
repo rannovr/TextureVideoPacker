@@ -1,12 +1,13 @@
 import utils.Util;
 import utils.VideoItem;
 
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+
+import static utils.Util.getBufferedImages;
 
 public class TextureMaker {
     public static String SOURCE_PATH = "e:\\3\\";
